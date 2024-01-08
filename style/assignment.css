@@ -54,3 +54,48 @@ h4{
     font-weight: 400;
     line-height: normal;
   }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #fff;
+    position: center;
+    text-align: center;
+  }
+
+  .container-2{
+    left: 399px;
+    right: 398.1px;
+    max-width: 1201px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 770px;
+    background-color: #FFF;
+  }
+
+  h1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+  }
+
+  h6{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+ .img-happy-new-year{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+    background-blend-mode: none;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+ }
