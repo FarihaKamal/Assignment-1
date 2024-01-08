@@ -25,8 +25,9 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-  }
-
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
 .overlay-text {
     position: absolute;
     top: 50%;
