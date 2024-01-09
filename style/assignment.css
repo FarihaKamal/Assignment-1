@@ -26,7 +26,7 @@ img {
     height: auto;
     display: block;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) url(/resources/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) url(/resources/Banner/Image.png);
 }
 .overlay-text {
     position: absolute;
@@ -66,7 +66,9 @@ main{
     position: center;
     text-align: center;
   }
-
+  .content-block {
+    text-align: center;
+  }
   .container-2{
     left: 399px;
     right: 398.1px;
@@ -79,23 +81,74 @@ main{
     background-color: #FFF;
   }
 
-  h1{
+  h2{
     position: relative;
     text-align: center;
     justify-content: center;
+    margin-bottom: 48px;
+    color: #F00;
+    font-family: "Inter";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 770;
+line-height: normal;
   }
 
   h6{
     position: relative;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px;
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
-
+h3{
+  color: #070211;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
  .img-happy-new-year{
-    width: 802.9px;
-height: 500px;
-flex-shrink: 0;
-    background-blend-mode: none;
-    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  width: 802.9px;
+  height: 500px;
+  max-width: 100%;
+  display: block;
+  margin-top: 20px; /* Adjust the space between text and image */  
  }
+
+.portfolio{
+  left: 140px;
+  right: 140px;
+  max-width: 1460px;
+  margin: 24px auto;
+} 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 0;
+}
+.column{
+  flex: 1;
+  padding: 0%;
+  margin: 10px;
+}
+
+.rect-img{
+  width: 424px;
+  height: 450px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #FFF;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+}
+
