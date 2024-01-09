@@ -128,6 +128,38 @@ h3 {
 
 /*its the portfolio section */
 
+.container-3 {
+  padding: 20px;
+  text-align: left;
+}
+
+.text-1 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text-2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.text-3 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
 .portfolio {
   left: 140px;
   right: 140px;
